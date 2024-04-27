@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <menuitem name="Citas Medicas"
+            id="menu_citas_medicas"
+            sequence="20"
+            web_icon="citas_medicas,static/description/icon.png"
+            groups="base.group_user"/>
+        <menuitem id="ias_reserva_menu_reservas"
+            name="Reservas"
+            action="action_ias_reserva"
+            parent="menu_citas_medicas"
+            sequence="1"/>
+        <menuitem id="ias_consultorio_menu_consultorios"
+            name="Consultorios"
+            action="action_ias_consultorio"
+            parent="menu_citas_medicas"
+            sequence="2"/>
+
+    </data>
+</odoo>

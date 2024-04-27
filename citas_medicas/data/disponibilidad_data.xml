@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <record id="data_disponibilidad_lunes" model="ias.disponibilidad.consultorio">
+            <field name="name">Lunes 08:00 a 18:00</field>
+            <field name="dia_semana">0</field>
+            <field name="hora_inicio">08:00</field>
+            <field name="hora_fin">18:00</field>
+        </record>
+        <record id="data_disponibilidad_martes" model="ias.disponibilidad.consultorio">
+            <field name="name">Martes 08:00 a 18:00</field>
+            <field name="dia_semana">1</field>
+            <field name="hora_inicio">08:00</field>
+            <field name="hora_fin">18:00</field>
+        </record>
+        <record id="data_disponibilidad_miercoles" model="ias.disponibilidad.consultorio">
+            <field name="name">Miercoles 08:00 a 18:00</field>
+            <field name="dia_semana">2</field>
+            <field name="hora_inicio">08:00</field>
+            <field name="hora_fin">18:00</field>
+        </record>
+        <record id="data_disponibilidad_jueves" model="ias.disponibilidad.consultorio">
+            <field name="name">Jueves 08:00 a 18:00</field>
+            <field name="dia_semana">3</field>
+            <field name="hora_inicio">08:00</field>
+            <field name="hora_fin">18:00</field>
+        </record>
+        <record id="data_disponibilidad_viernes" model="ias.disponibilidad.consultorio">
+            <field name="name">Viernes 08:00 a 18:00</field>
+            <field name="dia_semana">4</field>
+            <field name="hora_inicio">08:00</field>
+            <field name="hora_fin">18:00</field>
+        </record>
+        <record id="data_disponibilidad_sabado" model="ias.disponibilidad.consultorio">
+            <field name="name">Sábado 08:00 a 18:00</field>
+            <field name="dia_semana">5</field>
+            <field name="hora_inicio">08:00</field>
+            <field name="hora_fin">18:00</field>
+        </record>
+        <record id="data_disponibilidad_domingo" model="ias.disponibilidad.consultorio">
+            <field name="name">Domingo 08:00 a 18:00</field>
+            <field name="dia_semana">6</field>
+            <field name="hora_inicio">08:00</field>
+            <field name="hora_fin">18:00</field>
+        </record>
+    </data>
+</odoo>

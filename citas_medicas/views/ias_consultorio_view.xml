@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="view_ias_consultorio_tree" model="ir.ui.view">
+            <field name="name">ias.consultorio.tree</field>
+            <field name="model">ias.consultorio</field>
+            <field name="arch" type="xml">
+                <tree string="Consultorios">
+                    <field name="name"/>
+                    <field name="disponibilidad_ids" widget="many2many_tags"/>
+                </tree>
+            </field>
+        </record>
+        <record id="view_ias_consultorio_form" model="ir.ui.view">
+            <field name="name">ias.consultorio.form</field>
+            <field name="model">ias.consultorio</field>
+            <field name="arch" type="xml">
+                <form string="Formulario de Consultorios">
+                    <group>
+                        <field name="name"/>
+                        <field name="disponibilidad_ids" widget="many2many_tags"/>
+                    </group>
+                </form>
+            </field>
+        </record>
+        <record id="action_ias_consultorio" model="ir.actions.act_window">
+            <field name="name">IAS Consultorio</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">ias.consultorio</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+              <p class="o_view_nocontent_smiling_face">
+                Crear tu primer consultorio
+              </p>
+            </field>
+        </record>
+        <record id="action_ias_consultorio_tree" model="ir.actions.act_window.view">
+            <field name="sequence" eval="1"/>
+            <field name="view_mode">tree</field>
+            <field name="view_id" ref="view_ias_consultorio_tree"/>
+            <field name="act_window_id" ref="action_ias_consultorio"/>
+        </record>
+        
+    </data>
+</odoo>

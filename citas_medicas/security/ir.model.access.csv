@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_ias_consultorio,ias.consultorio,model_ias_consultorio,base.group_user,1,1,1,1
+access_ias_reserva,ias.reserva,model_ias_reserva,base.group_user,1,1,1,1
+access_ias_disponibilidad_consultorio,ias.disponibilidad.consultorio,model_ias_disponibilidad_consultorio,base.group_user,1,1,1,1
